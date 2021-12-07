@@ -42,21 +42,28 @@
 .navbar {
   background-color: transparent !important;
 }
+
 .main-div {
   margin-top: 65px !important;
 }
 .img-fluid {
   background: rgba(255, 255, 255, 0.9);
 }
-/* .left-bg{
-  align-content:;
-} */
+.left-bg {
+  margin: 3px 0px 25px 0px;
+}
 .left-bg-heading {
-  padding: 18px;
   text-align: left;
-  font-weight: 700;
-  font-size: xxx-large;
-  padding: 25px 20px 25px 0px !important;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 39px;
+  line-height: 46px;
+  text-transform: uppercase;
+  padding: 25px 0px 15px 0px !important;
+}
+h6.col-md-12 {
+  padding: 0px 72px 7px 0px;
 }
 info-heading {
   margin: 11px 9px 12px -14px !important;
@@ -65,8 +72,12 @@ info-heading {
   display: flex;
   margin: 40px 0px 25px 0px !important;
   justify-content: center !important;
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.877);
   box-shadow: 0px 2px 7px 3px rgb(0 0 0 / 15%);
+}
+.btn-btn-header {
+  display: flex;
+  padding: 20px 0px 20px 0px;
 }
 .navbar-brand {
   width: 50%;
@@ -119,7 +130,7 @@ info-heading {
   color: #333333;
 }
 section {
-  padding: 60px 0;
+  padding: 30px 0;
 }
 
 .section-bg {
@@ -157,7 +168,6 @@ section {
   background-color: rgba(26, 24, 24, 0.301);
   opacity: 3.8;
 
-
   /* background-image: url('electrical-tech.png'); */
 }
 .cta h3 {
@@ -167,19 +177,25 @@ section {
 }
 .cta p {
   color: #fff;
+  font-weight: bold;
+  display: flex;
+  font-family: sans-serif;
+  margin: 0px 75px 5px 150px;
 }
 .cta .cta-btn {
+  text-decoration: none;
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 10px 35px;
-  border-radius: 25px;
   transition: 0.5s;
   margin-top: 10px;
-  border: 2px solid #ffc107;
+  border: 2px solid #fa3d03;
   color: #fff;
+  background: #ff5722;
+  border-radius: 20px;
 }
 .cta .cta-btn:hover {
   background: #ffc107;
@@ -188,9 +204,53 @@ section {
   height: 300px;
   width: auto;
   object-fit: contain;
-  
 }
-.card-deck{
-  background: #FFFFFF;
-box-shadow: 0px 1px 6px 2px rgba(0, 0, 0, 0.15);
+.card-deck {
+  background: #ffffff;
+  box-shadow: 0px 1px 6px 2px rgba(0, 0, 0, 0.15);
+}
+section#services {
+  background: rgba(193, 160, 237, 0.9);
+}
+img.card-img {
+  height: 40px;
+  width: auto;
+  object-fit: scale-down;
+  padding: 8px 5px 1px 2px;
+}
+.owner-card-body {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15px;
+  font-family: Poppins;
+}
+.owner-card {
+  margin: 0px 25px 10px 25px;
+  background: #ffffff;
+  box-shadow: 0px 2px 5px 1px rgb(0 0 0 / 15%);
+  border-radius: 10px;
+}
+h5.card-title {
+  color: #ff5722;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+}
+.section-title p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #2c2b2b;
+  margin-bottom: 0;
+  padding: 2px 200px 4px 200px;
+}
+button.btn.btn-danger {
+  background: #ff5722;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
 }

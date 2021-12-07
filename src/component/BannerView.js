@@ -1,18 +1,13 @@
 import "../App.css";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
-
-
-
-
-
-
 const BannerView = () => {
   const myStyle = {
     backgroundImage: "url('banner.png')",
     backgroundRepeat: "no-repeat",
     backgroundSize: "100% 100%",
     opacity: "2.5",
+    height: "95vh",
   };
 
   return (
@@ -62,7 +57,7 @@ const BannerView = () => {
       </div>
       <div className="">
         <div className="container clearfix">
-          <div className="col-md-12 row">
+          <div className="col-md-12 row main-div">
             <div className="col-md-6 left-bg text-white">
               <h4 className="left-bg-heading col-md-12">
                 ELECTRONIC MANUFACTURING SERVICE MADE SIMPLIER
@@ -71,9 +66,11 @@ const BannerView = () => {
                 We strive to be your trusted electronics manufacturing services
                 provider. Own product of global standerd at compitive rates
               </h6>
-              <button type="button" class="btn btn-danger">
-                Start Building Your Brand
-              </button>
+              <div className="btn-btn-header">
+                <button type="button" class="btn btn-danger">
+                  Start Building Your Brand
+                </button>
+              </div>
             </div>
             <div className="col-md-6 right-bg">
               <img

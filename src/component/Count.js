@@ -3,41 +3,48 @@ import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 const Count = () => {
   return (
-    <section id="counts" class="counts section-bg">
-      <div className="Count">
+    <section id="counts" className="counts section-bg">
+      <div className="Count col-md-12 row counters">
         <div className="container">
           <div className="row counters">
-            <div className="col-lg-4 col-6 text-center count-1">
-              <span
+            <div className="col-lg-4 ">
+              <div className="text-center count-1">
+              {/* <span
                 data-purecounter-start="0"
                 data-purecounter-end="232"
                 data-purecounter-duration="1"
                 className="purecounter"
-              ></span>
+              ></span> */}
+              
               <h3>50+</h3>
               <p>Brands Served</p>
+              </div>
             </div>
 
-            <div className="col-lg-4 col-6 text-center count-2">
-              <span
+            <div className="col-lg-4">
+              <div className="text-center count-2">
+              {/* <span
                 data-purecounter-start="0"
                 data-purecounter-end="521"
                 data-purecounter-duration="1"
                 className="purecounter"
-              ></span>
+              ></span> */}
               <h3>2,193,996</h3>
               <p>Product Delivery</p>
+              </div>
             </div>
 
-            <div className="col-lg-4 col-6 text-center count-3">
-              <span
+            <div className="col-lg-4">
+              <div className="text-center count-3">
+              {/* <span
                 data-purecounter-start="0"
                 data-purecounter-end="1463"
                 data-purecounter-duration="1"
                 className="purecounter"
-              ></span>
+              ></span> */}
               <h3>1200+</h3>
               <p>Styles Manufectured</p>
+              </div>
             </div>
           </div>
         </div>

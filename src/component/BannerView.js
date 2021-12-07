@@ -1,14 +1,22 @@
 import "../App.css";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+
+
+
+
+
+
 const BannerView = () => {
   const myStyle = {
     backgroundImage: "url('banner.png')",
     backgroundRepeat: "no-repeat",
-    // backgroundSize: "100% 100%",
+    backgroundSize: "100% 100%",
+    opacity: "2.5",
   };
 
   return (
-    <div className="BannerViewr" style={myStyle}>
+    <div className="BannerViewr carousel" style={myStyle}>
       <div className="col-md-12 row">
         <div className="navbar navbar-expand-lg navbar-light bg-transparent mt-4">
           <a className="navbar-brand" href="/">
@@ -56,9 +64,9 @@ const BannerView = () => {
         <div className="container clearfix">
           <div className="col-md-12 row">
             <div className="col-md-6 left-bg text-white">
-              <h1 className="left-bg-heading col-md-12">
+              <h4 className="left-bg-heading col-md-12">
                 ELECTRONIC MANUFACTURING SERVICE MADE SIMPLIER
-              </h1>
+              </h4>
               <h6 className="col-md-12">
                 We strive to be your trusted electronics manufacturing services
                 provider. Own product of global standerd at compitive rates
